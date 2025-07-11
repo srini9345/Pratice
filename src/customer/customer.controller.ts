@@ -38,6 +38,10 @@ export class CustomerController {
     getcustomers(@Paginate() query:PaginateQuery) {
         return this.customerService.getpaginatedcustomer(query)
     }
+   @Get('srini')
+    getcustomerss(@Paginate() query:PaginateQuery) {
+        return this.customerService.getpaginatedcustomer(query)
+    }
     
    
             
