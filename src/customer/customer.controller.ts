@@ -42,8 +42,11 @@ export class CustomerController {
     getcustomerss(@Paginate() query:PaginateQuery) {
         return this.customerService.getpaginatedcustomer(query)
     }
-    
-   
+   @Get('suma')     
+    getcustomersss(@Paginate() query:PaginateQuery) {
+        return this.customerService.getpaginatedcustomer(query)
+    }
+ 
             
     }
  
