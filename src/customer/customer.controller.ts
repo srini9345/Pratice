@@ -7,7 +7,7 @@ import { Paginate, PaginateQuery } from 'nestjs-paginate';
 export class CustomerController {
  constructor(private readonly customerService: CustomerService) {}
 
- @Post(':id/customers')
+ @Post(':id/customer')
  createusercustomer(
     @Param('id',ParseIntPipe) id:number,
     @Body() dto:createusercustomerdto,
