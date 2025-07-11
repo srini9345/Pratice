@@ -5,6 +5,8 @@ export class createuserdto{
        username: string;
    
        password: string;
+
+       email: string
 }
 
 
