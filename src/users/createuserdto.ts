@@ -6,7 +6,7 @@ export class createuserdto{
    
        password: string;
 
-       email: string
+       email: string;
 }
 
 
