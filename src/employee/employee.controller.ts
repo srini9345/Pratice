@@ -40,7 +40,7 @@ export class EmployeeController {
     ) {
       return this.employeeService.assignusertoemployee(employeeid,userid);
     }
-    @Get(':employeeid/p/customer')
+    @Get(':employeeid/p/customers')
     async getcustomer(
       @Param('employeeid',ParseIntPipe) employeeId:number,
       @Paginate() Query:PaginateQuery,
