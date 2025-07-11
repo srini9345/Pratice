@@ -46,6 +46,10 @@ export class CustomerController {
     getcustomersss(@Paginate() query:PaginateQuery) {
         return this.customerService.getpaginatedcustomer(query)
     }
+    @Get('localus')
+    getcustomerssus(@Paginate() query:PaginateQuery) {
+        return this.customerService.getpaginatedcustomer(query)
+    }
             
     }
  
